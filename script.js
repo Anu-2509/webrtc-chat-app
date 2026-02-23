@@ -31,7 +31,7 @@ sendBtn.addEventListener("click", (e) => {
     const message = messageBox.value;
     connection.send(message);
     console.log("message sent");
-    messages.innerHTML += `<p style="color:green">${message}</p>`;
+    messages.innerHTML += `<p style="color:white">${message}</p>`;
     messageBox.value = "";
 });
 
